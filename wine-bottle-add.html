@@ -1,0 +1,121 @@
+<html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Add Task</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation"><a href="index.html">Home</a></li>
+            <li role="presentation"><a href="wine-bottle-add.html">Add Bottle</a></li>
+            <!--<li role="presentation"><a href="categories.html">Manage Categories</a></li>-->
+          </ul>
+        </nav>
+        <h3 class="text-muted">Wine manager</h3>
+      </div>
+
+      <div class="row marketing">
+        <div class="col-lg-12">
+          <h2 class="page-header">Add Wine Bottle</h2>
+          <form id="add_wine">
+              <div class="form-group">
+                    <label>Domaine</label>
+                    <input type="text" name="wine_name" id="wine_name" class="form-control" placeholder="Wine Name" />
+              </div>
+
+              <div class="form-group">
+                    <label>Appellation</label>
+                    <input type="text" name="wine-appellation" id="wine_appellation " class="form-control" placeholder="PIC SAINT LOUP..."></input>
+                    <!-- <select name="wine-appellation" id="wine_appellation " class="form-control"></select> -->
+              </div>
+              
+              <div class="form-group">
+                <label>Region</label>
+                <input type="text" name="wine-region" id="wine-region" class="form-control" placeholder="LANGUEDOC..."></input>
+              </div>
+
+              <div class="form-group">
+                <label>Couleur</label>
+                <input type="text" name="wine-color" id="wine-color" class="form-control"  placeholder="Rouge/Blanc/Rosé"></input>
+              </div>              
+
+              <div class="form-group">
+                <label>Assemblage</label>
+                <input type="text" name="wine-graps" id="wine-graps" class="form-control" placeholder="Syrah, Chenin..."></input>
+              </div>     
+
+              <div class="form-group">
+                    <label>Year</label>
+                    <input type="text" name="wine-millesime" id="wine-millesime" class="form-control" placeholder="2015" />
+              </div>
+
+              <div class="form-group">
+                <label>Vendanges</label>
+                <select name="wine-vendanges" id="wine-vendanges" class="form-control">
+                    <option value="" selected="selected">-- Please choose, or not</option>
+                    <option value="mecanics">Mécaniques</option>
+                    <option value="manuals">Manuelles</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label>Bio [AB]</label>
+                <select name="wine-biolabel" id="wine-biolabel" class="form-control">
+                    <option value="No bio" selected="selected">Aucun</option>
+                    <option value="AB">AB</option>
+                    <option value="Demeter">Demeter</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label>Sans sulfite ajouté</label>
+                <select name="wine-nosulphite" id="wine-nosulphite" class="form-control">
+                    <option value="false" selected="selected">Non</option>
+                    <option value="true">Oui</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                    <label>Pétillant</label>
+                    <select name="wine-sparklingness" id="wine-sparklingness" class="form-control">
+                        <option value="false" selected="selected">Non</option>
+                        <option value="true">Oui</option>
+                    </select>
+              </div>
+
+              <div class="form-group">
+                <label>Quantité</label>
+                <input type="text" name="bottle-qty" id="bottle-qty" class="form-control" placeholder="" />
+              </div>
+              <div class="form-group">
+                <label>Prix (dernier)</label>
+                <input type="text" name="bottle-price" id="bottle-price" class="form-control" placeholder="" /> €
+              </div>
+
+              <button type="submit" class="btn btn-success">Add Wine</button>
+          </form>
+        </div>
+
+      </div>
+
+      <footer class="footer">
+        <p>&copy; 2016 Company, Inc.</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>
