@@ -17,7 +17,7 @@ $(document).ready(function(){
 
 });
 
-const apiKey = 'HieyE-I0eT96gbsQioP5fOMTb5zvrMIc';
+const apiKey = '';
 const dbName = 'winedb';
 const C_wineBottles = 'wine_bottles'; // Wine bottles collection name
 // const C_categoryName = 'categories'; // Category collection name
